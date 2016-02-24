@@ -10,7 +10,9 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.examples.controllers" />
+    <context:annotation-config/>
+    <!--<context:component-scan base-package="com.examples.controllers" />-->
+    <bean id="homeController" class="com.examples.controllers.HomeController" />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
