@@ -27,7 +27,7 @@ Download: https://servicemix.apache.org/downloads/servicemix-5.5.0.html
 
 3. In browser, go to http://localhost:8181/home/
 
-Important Note:
+## Important Note:
 following issue exists for felix for non osgi spring bundles
 http://stackoverflow.com/questions/9215544/spring-felix-war-filenotfoundexception. The following solution works on servicemix5.5
 1. uninstall spring from servicemix
