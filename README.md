@@ -22,7 +22,8 @@ WEB-INF/views/home.jsp
 # Deployment Steps
 1. Install ServiceMix 5.5.0
 Download: https://servicemix.apache.org/downloads/servicemix-5.5.0.html
-2. Clone the source and invoke 
+2. Clone the source and invoke
+
 	mvn clean install war:war
 3. karaf@root> install -s webbundle:file:/data/git_projects/webapp-servicemix-spring-mvc-war/target/spring-mvc-1.0-SNAPSHOT.war?Bundle-SymbolicName=web-spring-mvc&Web-ContextPath=home
 
